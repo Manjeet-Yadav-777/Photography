@@ -224,10 +224,10 @@ const Home = () => {
               </p>
 
               <a
-                href="mailto:photographer@example.com"
+                href="tel:+919928150744"
                 className="py-[18px] px-[50px] h-[66px] flex items-center justify-center text-base uppercase font-semibold bg-gray-900 text-white mb-36 hover:bg-gray-800 transition-colors"
               >
-                Hire me
+                Hire Me
               </a>
             </motion.div>
 
@@ -452,9 +452,9 @@ const Home = () => {
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
-                  className="w-full py-3 px-6 bg-gray-900 text-white font-semibold rounded-lg hover:bg-gray-800 transition-colors text-sm lg:text-base mt-auto"
+                  className="w-full py-3 cursor-pointer px-6 bg-gray-900 text-white font-semibold rounded-lg hover:bg-gray-800 transition-colors text-sm lg:text-base mt-auto"
                 >
-                  Learn More
+                  Call Now
                 </motion.button>
               </motion.div>
             ))}
@@ -480,15 +480,15 @@ const Home = () => {
                 <motion.a
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
-                  href="mailto:photographer@example.com"
+                  href="mailto:bhargavajay67@gmail.com"
                   className="py-3 lg:py-4 px-6 lg:px-8 bg-white text-gray-900 font-semibold rounded-lg hover:bg-gray-100 transition-colors text-sm lg:text-base"
                 >
-                  Get Quote
+                  Get in Touch
                 </motion.a>
                 <motion.a
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
-                  href="tel:+919876543210"
+                  href="tel:+919928150744"
                   className="py-3 lg:py-4 px-6 lg:px-8 border-2 border-white text-white font-semibold rounded-lg hover:bg-white hover:text-gray-900 transition-colors text-sm lg:text-base"
                 >
                   Call Now

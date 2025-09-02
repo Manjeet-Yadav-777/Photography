@@ -8,7 +8,7 @@ const Socials = () => {
       <ul className="flex gap-x-4">
         <li>
           <a
-            href="https://instagram.com/photographer_jaipur"
+            href="https://www.instagram.com/theajphotography98?igsh=aWFqbWFqMDVld3B3"
             target="_blank"
             rel="noopener noreferrer"
             className="text-2xl hover:text-pink-600 transition-colors focus:outline-none"

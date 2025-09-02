@@ -9,7 +9,7 @@ const Footer = () => {
     {
       name: "Instagram",
       icon: "📸",
-      url: "https://instagram.com/yourphotographer",
+      url: "https://www.instagram.com/theajphotography98?igsh=aWFqbWFqMDVld3B3",
       color: "hover:bg-gradient-to-r from-purple-500 to-pink-500",
     },
     {
@@ -27,7 +27,7 @@ const Footer = () => {
     {
       name: "WhatsApp",
       icon: "💬",
-      url: "https://wa.me/919876543210",
+      url: "https://wa.me/919928150744",
       color: "hover:bg-green-500",
     },
   ];
@@ -87,19 +87,19 @@ const Footer = () => {
               <div className="flex items-center">
                 <span className="text-lg mr-3">📧</span>
                 <a
-                  href="mailto:photographer@example.com"
+                  href="mailto:bhargavajay67@gmail.com"
                   className="hover:text-gray-300 transition-colors"
                 >
-                  photographer@example.com
+                  bhargavajay67@gmail.com
                 </a>
               </div>
               <div className="flex items-center">
                 <span className="text-lg mr-3">📞</span>
                 <a
-                  href="tel:+919876543210"
+                  href="tel:+919928150744"
                   className="hover:text-gray-300 transition-colors"
                 >
-                  +91 98765 43210
+                  +91 99281 50744
                 </a>
               </div>
             </div>
@@ -179,7 +179,7 @@ const Footer = () => {
               <motion.a
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                href="mailto:photographer@example.com"
+                href="mailto:bhargavajay67@gmail.com"
                 className="inline-block bg-white text-gray-900 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors text-sm"
               >
                 Get Free Quote

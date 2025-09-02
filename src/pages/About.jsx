@@ -160,10 +160,10 @@ const About = () => {
                 <motion.a
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
-                  href="mailto:photographer@example.com"
-                  className="border-2 border-gray-900 text-gray-900 px-8 py-4 rounded-lg font-semibold hover:bg-gray-900 hover:text-white transition-colors text-center"
+                  href="mailto:bhargavajay67@gmail.com"
+                  className="border-2 border-gray-900 text-gray-900 px-8 py-4 rounded-lg hover:bg-gray-900 hover:text-white transition-colors text-center"
                 >
-                  Get Quote
+                  Get in Touch
                 </motion.a>
               </div>
             </motion.div>
@@ -466,7 +466,7 @@ const About = () => {
               <motion.a
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                href="mailto:photographer@example.com"
+                href="mailto:bhargavajay67@gmail.com"
                 className="bg-white text-gray-900 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
               >
                 Get Free Consultation
@@ -474,7 +474,7 @@ const About = () => {
               <motion.a
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                href="tel:+919876543210"
+                href="tel:+919928150744"
                 className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-gray-900 transition-colors"
               >
                 Call Now

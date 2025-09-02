@@ -5,24 +5,52 @@ import img3 from "../img/portfolio/3.png";
 import img4 from "../img/portfolio/4.png";
 import img5 from "../img/portfolio/5.png";
 import img6 from "../img/portfolio/6.png";
+import img7 from "../img/portfolio/img1.jpg";
+import img8 from "../img/portfolio/img2.jpg";
+import img9 from "../img/portfolio/img3.jpg";
+import img10 from "../img/portfolio/img4.webp";
+import img11 from "../img/portfolio/img5.webp";
+import img12 from "../img/portfolio/img6.jpg";
+import img13 from "../img/portfolio/img7.jpg";
+import img14 from "../img/portfolio/img8.webp";
+import img15 from "../img/portfolio/img9.jpg";
+import img16 from "../img/portfolio/img10.jpg";
+import img17 from "../img/portfolio/img11.jpg";
+import img18 from "../img/portfolio/img12.jpg";
+import img19 from "../img/portfolio/img13.jpg";
+import img20 from "../img/portfolio/img14.jpg";
+import img21 from "../img/portfolio/img15.jpg";
+import img22 from "../img/portfolio/img16.jpg";
+import img23 from "../img/portfolio/img17.jpg";
+import img24 from "../img/portfolio/img18.jpg";
+import img25 from "../img/portfolio/img19.jpg";
+import img26 from "../img/portfolio/img20.jpg";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { transition1 } from "../Transition";
 
 const Portfolio = () => {
   const portfolioItems = [
-    { id: 1, image: img1 },
-    { id: 2, image: img2 },
-    { id: 3, image: img3 },
-    { id: 4, image: img4 },
-    { id: 5, image: img5 },
-    { id: 6, image: img6 },
-    { id: 7, image: img1 },
-    { id: 8, image: img2 },
-    { id: 9, image: img3 },
-    { id: 10, image: img4 },
-    { id: 11, image: img5 },
-    { id: 12, image: img6 },
+    { id: 7, image: img7 },
+    { id: 8, image: img8 },
+    { id: 9, image: img9 },
+    { id: 10, image: img10 },
+    { id: 11, image: img11 },
+    { id: 12, image: img12 },
+    { id: 13, image: img13 },
+    { id: 14, image: img14 },
+    { id: 15, image: img15 },
+    { id: 16, image: img16 },
+    { id: 17, image: img17 },
+    { id: 18, image: img18 },
+    { id: 19, image: img19 },
+    { id: 20, image: img20 },
+    { id: 21, image: img21 },
+    { id: 22, image: img22 },
+    { id: 23, image: img23 },
+    { id: 24, image: img24 },
+    { id: 25, image: img25 },
+    { id: 26, image: img26 },
   ];
 
   const containerVariants = {
@@ -85,15 +113,15 @@ const Portfolio = () => {
               <motion.a
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                href="mailto:photographer@example.com"
+                href="mailto:bhargavajay67@gmail.com"
                 className="bg-gray-900 text-white px-8 py-4 rounded-lg font-semibold hover:bg-gray-800 transition-colors"
               >
-                Get Quote
+                Get in Touch
               </motion.a>
               <motion.a
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                href="tel:+919876543210"
+                href="tel:+919928150744"
                 className="border-2 border-gray-900 text-gray-900 px-8 py-4 rounded-lg font-semibold hover:bg-gray-900 hover:text-white transition-colors"
               >
                 Call Now
@@ -235,7 +263,7 @@ const Portfolio = () => {
               <motion.a
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                href="mailto:photographer@example.com"
+                href="mailto:bhargavajay67@gmail.com"
                 className="bg-gray-900 text-white px-8 py-4 rounded-lg font-semibold hover:bg-gray-800 transition-colors"
               >
                 Get Free Consultation
@@ -243,7 +271,7 @@ const Portfolio = () => {
               <motion.a
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                href="tel:+919876543210"
+                href="tel:+919928150744"
                 className="border-2 border-gray-900 text-gray-900 px-8 py-4 rounded-lg font-semibold hover:bg-gray-900 hover:text-white transition-colors"
               >
                 Call Now
