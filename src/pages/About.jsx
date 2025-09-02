@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import womenAbout from "../img/about/woman.png";
+import manAbout from "../img/about/man.webp";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { transition1 } from "../Transition";
@@ -92,7 +92,7 @@ const About = () => {
       rating: 5,
     },
     {
-      name: "Sarah Johnson",
+      name: "Mona Sinha",
       type: "Portrait Client",
       text: "The best photographer I've worked with. Made me feel so comfortable and the results are incredible.",
       rating: 5,
@@ -123,7 +123,7 @@ const About = () => {
                 <motion.img
                   whileHover={{ scale: 1.05 }}
                   transition={transition1}
-                  src={womenAbout}
+                  src={manAbout}
                   alt="Professional photographer"
                   className="relative rounded-3xl shadow-2xl object-cover w-full aspect-square max-w-sm mx-auto"
                 />

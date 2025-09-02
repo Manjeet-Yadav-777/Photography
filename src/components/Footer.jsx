@@ -12,18 +12,7 @@ const Footer = () => {
       url: "https://www.instagram.com/theajphotography98?igsh=aWFqbWFqMDVld3B3",
       color: "hover:bg-gradient-to-r from-purple-500 to-pink-500",
     },
-    {
-      name: "Facebook",
-      icon: "📘",
-      url: "https://facebook.com/yourphotographer",
-      color: "hover:bg-blue-600",
-    },
-    {
-      name: "YouTube",
-      icon: "📺",
-      url: "https://youtube.com/yourphotographer",
-      color: "hover:bg-red-600",
-    },
+
     {
       name: "WhatsApp",
       icon: "💬",
