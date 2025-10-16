@@ -8,7 +8,7 @@ const Header = () => {
     <div className="fixed w-full bg-white px-[30px] lg:px-[100px] z-30 h-[100px] lg:h-[100px] flex items-center">
       <div className="flex flex-col lg:flex-row lg:items-center w-full justify-between">
         <Link to={"/"} className="max-w-[200px]">
-          <h1 className="text-4xl font-bold text-blue-300">Photography</h1>
+          <h1 className="text-4xl font-bold text-blue-300">9928150744</h1>
         </Link>
 
         <nav className="hidden xl:flex gap-x-12 font-semibold">

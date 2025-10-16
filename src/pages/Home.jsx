@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import women from "../img/home/woman.png";
+import women from "../img/home/2.jpg";
 import { motion } from "framer-motion";
 import { transition1 } from "../Transition";
 
@@ -215,9 +215,9 @@ const Home = () => {
               transition={transition1}
               className="w-full lg:mt-48 pt-52 pb-14 lg:pt-0 lg:pb-0 lg:w-auto z-10 lg:absolute flex flex-col justify-center items-center lg:items-start lg:ml-20"
             >
-              <h1 className="text-[54px] lg:text-[66px] font-bold capitalize leading-[120%] tracking-[-0.05em] mb-2">
-                Photographer <br /> & Film Maker
-              </h1>
+             <h1 className="text-[20px] lg:text-[66px] font-bold capitalize leading-[120%] tracking-[-0.05em] mb-2">
+  The <span className="ml-4 text-[90px] leading-none">AJ</span> <br /> Photography
+</h1>
 
               <p className="text-[26px] lg:text-[36px] mb-4 lg:mb-12">
                 Jaipur Rajasthan, India
@@ -277,7 +277,7 @@ const Home = () => {
               <motion.img
                 whileHover={{ scale: 1.05 }}
                 transition={transition1}
-                src={women}
+                 src={women}
                 alt="Professional photographer portrait"
                 className="w-full h-full object-cover"
               />

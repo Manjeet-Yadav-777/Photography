@@ -53,7 +53,7 @@ const Footer = () => {
           >
             <div className="mb-6">
               <h3 className="text-2xl font-bold mb-4">
-                Photographer & Film Maker
+                The AJ Photography
               </h3>
               <p className="text-gray-300 leading-relaxed">
                 Capturing life's precious moments with creativity and
@@ -210,7 +210,7 @@ const Footer = () => {
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-400 text-sm mb-4 md:mb-0">
-              © {currentYear} Photographer & Film Maker. All rights reserved.
+              © {currentYear} The AJ Photography. All rights reserved.
             </div>
             <div className="flex space-x-6 text-sm">
               <a
